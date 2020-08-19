@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.title {
+    font-size: 48px;
+    font-family: "Gotham Pro Light", sans-serif;
+    color: #fefefe;
+    text-align: center;
+}
+/*Header block */
+.header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 35;
+    padding-top: 30px;
+}
+.header__inner {
+    display: flex;
+    align-items: flex-start;
+}
+.nav {
+    font-size: 16px;
+    font-family: "Gotham Pro", sans-serif;
+}
+.nav__link {
+    display: inline-block;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #f9f9fe;
+    transition: color .2s linear;
+}
+.nav__link:hover {
+    color: gray;
+}
+
+/* Content */
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: url(../img/background_01.jpg) center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.intro__subtitle {
+    padding-left: 7px;
+    font-size: 31px;
+    font-family: "Gotham Pro", serif;
+    background: linear-gradient(-105deg, #f4eff2 33%, #d2c3ec);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-style: italic;
+    text-transform: uppercase;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.intro__tittle {
+    max-width: 640px;
+    font-size: 88px;
+    font-family: 'Gotham Pro Regular', sans-serif;
+    color: #c2b5d3;
+    text-align: left;
+    text-transform: uppercase;
+}
+.intro__subtitle-2 {
+    padding: 50px 7px 0;
+    font-size: 36px;
+    font-family: "Dala Floda Medium", serif;
+    font-style: italic;
+    color: #FEFEFE;
+    line-height: 1.8;
+    text-align: left;
+}
+/*Block about company*/
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: url(../img/background_02.jpg) center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.about__title {
+    max-width: 900px;
+    font-size: 47px;
+    color: #FBF9F9;
+    font-family: "Gotham Pro Black", sans-serif;
+    line-height: 1.2;
+    text-align: left;
+}
+.about__subtitle {
+    margin-bottom: 35px;
+    font-size: 20px;
+    font-family: "Gotham Pro Light", sans-serif;
+    color: #fbf9f9;
+    text-transform: uppercase;
+    text-align: left;
+}
+.about__subtitle-2 {
+    margin: 60px auto;
+    max-width: 580px;
+}
+.about__line {
+    opacity: 0.4;
+    margin: 20px auto 0;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #f9f9fe;
+}
+.about__advantage {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.about__advantage__item {
+    margin-top: 10px;
+    color: #FCFCFC;
+    text-align: center;
+    font-family: "Gotham Pro Regular", serif;
+    font-size: 24px;
+}
+.photo {
+    display: block;
+    width: 220px;
+    height: 215px;
+    margin-bottom: 30px;
+}
+.photo_1 {
+    background: url(../img/photo_1.png) no-repeat center;
+}
+.photo_2 {
+    background: url(../img/photo_2.png) no-repeat center;
+}
+.photo_3 {
+    background: url(../img/photo_3.png) no-repeat center;
+}
+.photo_4 {
+    background: url(../img/photo_4.png) no-repeat center;
+}
+/*Block-3 Services*/
+.services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: url(../img/background_03.jpg) center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.services__subtitle {
+    margin-left: 650px;
+    text-align: center;
+    font-size: 25px;
+    font-family: "Gotham Pro Light", sans-serif;
+    color: #020202;
+    text-transform: uppercase;
+}
+.services__title {
+
+
+}
+
+.services__info {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.services__info__item {
+    font-size: 40px;
+    font-family: "Monotype Corsiva Regular", sans-serif;
+    max-width: 325px;
+    margin-top: 60px;
+    padding-left: 15px;
+    color: #FBF9F9;
+}
+.services__info__item::before {
+    margin-bottom: 60px;
+    content: "";
+    width: 340px;
+    height: 2px;
+    background: url(../img/line.png) no-repeat center;
+    display: block;
+}
+
+/*Block footer*/
+.footer {
+    width: 100%;
+    height: 100vh;
+    background: url(../img/background_04.jpg) center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.footer__inner {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+}
+.footer__title {
+    max-width: 910px;
+    font-size: 47px;
+    color: #030303;
+    font-family: "Gotham Pro Medium", sans-serif;
+    line-height: 1.2;
+    text-align: left;
+    margin: 130px 0 90px 0;
+}
+.instagramm {
+    width: 60px;
+    height: 60px;
+    background: url(../img/icons/instagram.png) center no-repeat;
+    margin-bottom: 20px;
+}
+.instagramm_description, .phone_description, .document_description {
+    margin: 10px 80px 0;
+    font-size: 30px;
+    font-family: "Gotham Pro Black", sans-serif;
+    color: #000000;
+    width: 400px;
+}
+.phone {
+    width: 70px;
+    height: 65px;
+    background: url(../img/icons/phone.png) center no-repeat;
+    margin-bottom: 20px;
+}
+
+.document {
+    width: 70px;
+    height: 70px;
+    background: url(../img/icons/document.png) center no-repeat;
+}
+.author {
+    margin-top: 40px;
+    font-size: 12px;
+    font-family: "Gotham Pro Regular", serif;
+    color: rgba(2, 2, 2, 0.6);
+    text-align: right;
+}
+/*Styles for mobile*/
+@media (min-width: 480px) and (max-width: 768px) {
+
+}
+
+@media (min-width: 320px) and (max-width: 409px) {
+
+}
+
+@media (min-width: 410px) and (max-width: 767px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+
+}
